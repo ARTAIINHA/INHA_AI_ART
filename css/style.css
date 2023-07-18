@@ -242,10 +242,7 @@ ol {
 .spacial-controls .search-switch {
 	display: block;
 	height: 100%;
-	padding-top: 30px;
-	background: #323232;
 	text-align: center;
-	cursor: pointer;
 }
 
 .nav-switch-warp {
