@@ -134,7 +134,7 @@ ol {
 	min-width: 189px;
 	padding: 15px 28px;
 	letter-spacing: 0.08em;
-	border-radius: 0;
+	border-radius: 0	;
 	text-align: center;
 	text-transform: uppercase;
 	color: #323232;
@@ -245,6 +245,8 @@ ol {
 	text-align: center;
 }
 
+
+
 .nav-switch-warp {
 	display: none;
 	width: 50%;
@@ -257,6 +259,7 @@ ol {
 
 .nav-switch {
 	display: block;
+	justify-content: flex-end;
 	width: 40px;
 	height: 31px;
 	padding-top: 14px;
@@ -295,6 +298,8 @@ ol {
 .nav-switch:hover .ns-bar {
 	width: 100%;
 }
+
+
 
 /*------------------
   Header section
@@ -1270,6 +1275,9 @@ ol {
 	}
 	.spacial-controls .search-switch {
 		width: 50%;
+	}
+	.spacial-controls .right{
+		justify-content: flex-end;
 	}
 	.nav-switch-warp {
 		display: block;
